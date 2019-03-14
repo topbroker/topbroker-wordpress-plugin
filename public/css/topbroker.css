@@ -1,0 +1,57 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.tb-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tb-filter {
+    margin: 30px 0;
+    text-align: right;
+    font-size: 16px;
+}
+.tb-filter div {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.tb-filter label {
+    margin-right: 20px;
+}
+.tb-filter input, .tb-filter select {
+    padding: 5px;
+    line-height: 1.1;
+}
+.tb-filter button {
+    padding: 10px 25px;
+    text-align: right;
+}
+
+.tb-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tb-card {
+    flex: 1 0 21%;
+    margin: 5px;
+    min-height: 250px;
+    border: 1px solid #5aa1f8;
+    border-radius: 5px;
+    padding: 10px;
+}
+.tb-card h3 {
+    font-size: 16px;
+}
+.tb-card-footer {
+    font-size: 13px;
+}
+.tb-pagination {
+    margin: 5px 0;
+    text-align: center;
+}
+.tb-pagination a {
+    padding: 0 5px;
+}
